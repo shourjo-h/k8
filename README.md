@@ -40,3 +40,11 @@ This repository contains shell scripts for setting up and managing a Kubernetes 
    chmod u+x crio.sh
    ./crio.sh
 
+## Contributing
+
+Contributions are welcome! Feel free to submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
