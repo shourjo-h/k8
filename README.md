@@ -44,7 +44,6 @@ This script modifies the CRI-O configuration.
 - Updates the `conmon` path in the CRI-O configuration file
 - Adds Docker, Quay, and Fedora registries to the CRI-O configuration
 
-
 #### Usage:
 ```sh
 chmod +x crio.sh
@@ -61,7 +60,15 @@ chmod +x crio.sh
 1. Clone this repository.
 2. Master Node Setup: Run `master.sh` on the intended master node.
 3. Worker Node Setup: Run `node.sh` on each intended worker node.
-4. CRI-O Configuration: Run crio.sh on each node to configure CRI-O.
+4. CRI-O Configuration: Run `crio.sh` on each node to configure CRI-O.
+
+## Acknowledgements
+
+Special thanks to the following projects and communities that have contributed to this project:
+
+- [Kubernetes](https://kubernetes.io/) - Providing a robust container orchestration platform.
+- [CRI-O](https://cri-o.io/) - Offering a lightweight container runtime tailored for Kubernetes.
+- [Calico](https://projectcalico.org/) - Delivering scalable networking solutions for Kubernetes environments.
 
 ## License
 
