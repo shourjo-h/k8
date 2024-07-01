@@ -1,3 +1,4 @@
+#!/bin/bash
 swapon -s
      cat <<EOF | sudo tee /etc/modules-load.d/crio.conf
 overlay
