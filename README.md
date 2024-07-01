@@ -25,5 +25,18 @@ This repository contains shell scripts for setting up and managing a Kubernetes 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/shourjo-h/k8s.git
+   cd k8s
+2. Set up the master node (on the master node):
+   ```bash
+   chmod u+x master.sh
+   ./master.sh
+3. Set up worker nodes (on each worker node):
+   ```bash
+   chmod u+x node.sh
+   ./node.sh
+4. Configure CRI-O (on all nodes):
+   ```bash
+   chmod u+x crio.sh
+   ./crio.sh
+
