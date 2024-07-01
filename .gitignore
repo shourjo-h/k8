@@ -1,0 +1,5 @@
+# Ignore all files except the three scripts
+*
+!master.sh
+!node.sh
+!crio.sh
